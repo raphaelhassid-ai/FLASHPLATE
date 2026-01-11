@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Plate, AppMode } from './types';
-import { detectPlatesFromImage } from './services/geminiService';
+import { detectPlatesFromImage } from './geminiService';
 import { 
   PlusIcon, 
   CameraIcon, 
